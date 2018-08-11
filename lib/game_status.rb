@@ -23,14 +23,15 @@ def won?(board)
     win_index_3 = win_combination[2]
 
     if board[win_index_1] == "X" && board[win_index_2] == "X" && board[win_index_3] == "X"
-      [board[win_index_1],board[win_index_2],board[win_index_3]]
+      res = [board[win_index_1],board[win_index_2],board[win_index_3]]
     elsif board[win_index_1] == "O" && board[win_index_2] == "O" && board[win_index_3] == "O"
-      [board[win_index_1],board[win_index_2],board[win_index_3]]
+      res = [board[win_index_1],board[win_index_2],board[win_index_3]]
     else
-      false
+      res = false
     end
 #    puts board[win_combination] if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
   end
+  res
 end
 
 def full?(board)

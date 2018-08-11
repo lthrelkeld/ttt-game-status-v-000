@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 #determines if win is true or false
 def won?(board)
   res = false
-  
+
   WIN_COMBINATIONS.each do |win_combination|
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]

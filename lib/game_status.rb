@@ -18,7 +18,13 @@ WIN_COMBINATIONS = [
 #determines if win is true or false
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
-    puts board[win_combination] if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
+
+
+
+#    puts board[win_combination] if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
   end
 end
 

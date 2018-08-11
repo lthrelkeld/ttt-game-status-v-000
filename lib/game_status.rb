@@ -26,9 +26,7 @@ def won?(board)
     board_spot_3 = board[win_index_3]
 
     if board_spot_1 == "X" && board_spot_2 == "X" && board_spot_3 == "X"
-      [board_spot_1,board_spot_2, board_spot_3]
-    elsif board[win_index_1] == "O" && board[win_index_2] == "O" && board[win_index_3] == "O"
-      [board[win_index_1],board[win_index_2],board[win_index_3]]
+      [board_spot_1, board_spot_2, board_spot_3]
     else
       false
     end

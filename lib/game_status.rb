@@ -17,15 +17,14 @@ WIN_COMBINATIONS = [
 
 #determines if win is true or false
 def won?(board)
-#  false
-#  puts board
-#  WIN_COMBINATIONS.each do |win_combination|
-#    true if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
-#  end
+  false
+  WIN_COMBINATIONS.each do |win_combination|
+    true if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
+  end
 end
 
-def full(board)
+def full?(board)
 end
 
-def draw(board)
+def draw?(board)
 end

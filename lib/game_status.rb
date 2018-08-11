@@ -15,8 +15,8 @@ WIN_COMBINATIONS = [
   [2,4,6] #second diagonal
 ]
 
+#determines if win is true or false
 def won(board)
-  win = false
 end
 
 def full(board)

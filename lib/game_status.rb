@@ -22,6 +22,7 @@ def won?(board)
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
 
+    true if board[win_index_1] == "X" && board[win_index_2] == "X" && board[win_index_3] == "X"
 
 
 #    puts board[win_combination] if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]

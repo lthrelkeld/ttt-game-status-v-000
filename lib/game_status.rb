@@ -46,9 +46,9 @@ end
 
 def draw?(board)
   if won?(board) == true
-    false
-  else
     true
+  else
+    false
   end
 
 end

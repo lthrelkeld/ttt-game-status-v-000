@@ -16,6 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won(board)
+  win = false
 end
 
 def full(board)

@@ -39,22 +39,11 @@ end
 def full?(board)
   #If the board includes "" or " ", the board is not full.
   board.include?("") || board.include?(" ") ? false : true
-
-#  if board.include?("") || board.include?(" ")
-#    false
-#  else
-#    true
-#  end
 end
 
 def draw?(board)
   #if the board is won, it's a draw
   won?(board) == true ? true : false
-#  if won?(board) == true
-#    true
-#  else
-#    false
-#  end
 end
 
 def over?(board)

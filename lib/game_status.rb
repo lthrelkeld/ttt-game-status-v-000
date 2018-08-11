@@ -49,11 +49,11 @@ end
 def over?(board)
   #
   draw?(board) = true && won?(board) == true ? true : false
-  if draw?(board) == true && won?(board)
-    true
-  else
-    false
-  end
+#  if draw?(board) == true && won?(board)
+#    true
+#  else
+#    false
+#  end
 end
 
 def winner(board)

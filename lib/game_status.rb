@@ -48,11 +48,13 @@ def full?(board)
 end
 
 def draw?(board)
-  if won?(board) == true
-    true
-  else
-    false
-  end
+  #if the board is won, it's a draw
+  won?(board) == true ? true : false
+#  if won?(board) == true
+#    true
+#  else
+#    false
+#  end
 end
 
 def over?(board)

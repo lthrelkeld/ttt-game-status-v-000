@@ -14,3 +14,12 @@ WIN_COMBINATIONS = [
   [0,4,8], #first diagonal
   [2,4,6] #second diagonal
 ]
+
+def won(board)
+end
+
+def full(board)
+end
+
+def draw(board)
+end

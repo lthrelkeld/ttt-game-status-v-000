@@ -28,7 +28,9 @@ def won?(board)
     board_spot_3 = board[win_index_3]
 
     if board_spot_1 == "X" && board_spot_2 == "X" && board_spot_3 == "X"
-      res = [board_spot_1, board_spot_2, board_spot_3]
+      return win_combination
+    else
+      false
     end
 #    puts board[win_combination] if board[win_combination] == ["X","X","X"] || board[win_combination] == ["O","O","O"]
   end
